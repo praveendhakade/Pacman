@@ -1,0 +1,60 @@
+.grid {
+    width: 420px;
+    height: 420px;
+    border: solid #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 15px;
+    height: 15px;
+}
+
+.pac-dot {
+    box-sizing: border-box;
+    background-color: green;
+    border: solid 5px white;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.power-pellet {
+    background-color: green;
+    border: none;
+    border-radius: 7.5px;
+}
+
+.pacman {
+    background-color: yellow;
+    border-radius: 7.5px;
+    border: none;
+}
+
+/* Ghosts */
+
+
+.violet {
+    background-color: violet;
+    border: none;
+}
+.sapphire {
+    background-color: seagreen;
+    border: none;
+}
+.lily {
+    background-color: lightcoral;
+    border: none;
+}
+
+.red {
+    background-color: red;
+    border: none;
+}
+
+.scared-ghost{
+    background-color: aqua;
+    border: none;
+}
