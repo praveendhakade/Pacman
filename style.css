@@ -7,7 +7,7 @@
 .grid {
     width: 420px;
     height: 420px;
-    border: solid #000;
+    border: solid blue;
     display: flex;
     flex-wrap: wrap;
 }
@@ -24,7 +24,7 @@
 }
 
 .wall {
-    background-color: blue;
+    background-color: lightblue;
 }
 
 .power-pellet {
